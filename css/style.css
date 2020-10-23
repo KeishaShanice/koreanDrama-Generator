@@ -1,15 +1,70 @@
 * {
     box-sizing: border-box;
     text-align: center;
-  }
-  
-  body {
-    background: linear-gradient(to right, #99582a, #f7b538, #606c38);
-  }
-  
-  .dramaResult p{
+}
+
+body {
+    background-color: rgba(235, 249, 237, 0.7);
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+    padding: 50px;
+    background: linear-gradient(90deg, #0f4c5c, #218d65);
+    border: 5px solid #218d65;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.textWrap {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 10px;
+    border: 3px solid #0f4c5c;
+    border-radius: 10px;
+
+}
+
+.nextDramaP {
+    font-size: 22px;
+    font-family: 'Share Tech Mono', monospace;
+    font-style: italic;
+    color: wheat;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 5px;
+    background: #0f4c5c;
+    color: whitesmoke;
+}
+
+.button:hover {
+    border: 3px solid #218d65;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: aquamarine;
+    transition: 0.2s;
+}
+
+.dramaResult {
     margin: 10px;
     padding: 10px;
     font-size: 32px;
-    color: #0f4c5c;
-  }
+    font-family: 'Berkshire Swash', cursive;
+    color: wheat;
+}

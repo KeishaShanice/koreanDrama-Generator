@@ -1,0 +1,11 @@
+// Google Fonts
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Raleway&display=swap" rel="stylesheet">
+
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'VT323', monospace;
+
+Background pic: <span>Photo by <a href="https://unsplash.com/@bundo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bundo Kim</a> on <a href="https://unsplash.com/s/photos/korean?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Raleway&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+
+
     <!-- local css -->
     <link rel="stylesheet" href="./css/style.css">
     <title>KDrama Generator</title>
 </head>
 <body>
-    
-<header>
-    <h1>Korean Drama Generator</h1>
-</header>
+    <div class="container">
+        <div class="head">
+            <header>
+                <h1>Korean Drama Generator</h1>
+            </header>
+        </div>
+        
+        
+        <main>
+            <div class="textWrap">
+                <div>
+                    <p class="nextDramaP">Your next drama is ...</p>
 
-<main>
-    <div>
-        <p>Your next drama is ...</p>
-    </div>
+                    <form action="#link" onsubmit="generateDrama()">
+                    <input type="submit" value="Tell Me!" class="button">
+                    </form>
+                    
+                    <p class="nextDramaP">...beep...boop...</p>
 
-    <div>
-        <form action="#link" onsubmit="generateDrama()">
-        <input type="submit" value="Tell Me!">
-        </form>
-    </div>
+                    <p class="dramaResult">"<span id="drama">Drama Title</span>"</p>
+                </div>
+            </div>
+        </main>
+        
+    </div>    
 
-    <div class="dramaResult">
-        <p>"<span id="drama">Drama Title</span>"</p>
-    </div>
-
-</main>
-
-<!-- javaScript -->
-<script src="js/app.js"></script>
+        <!-- javaScript -->
+        <script src="js/app.js"></script>
 
 </body>
 </html>
